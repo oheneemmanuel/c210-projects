@@ -1,9 +1,25 @@
 using System;
+using System.Reflection;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Sandbox Project.");
+        Person person1 = new Person( "ohene",  20);
+        Person person2 = new Person("Pedro", 22);
+
+
+        Hello hi = new Hello(person1);
+        Hello hello = new Hello(person2);
+
+        hello.DisplayName();
+        
+        
+       
+
+
+        hi.DisplayName();
+
     }
+
 }
