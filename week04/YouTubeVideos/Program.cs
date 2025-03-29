@@ -12,7 +12,7 @@ class Program
 
         Video video2 = new Video("Learn Python", "John Smith", 4,  new List<Comment>() );
         video2.AddComment(new Comment("Jordan", "Very easy to understand."));
-        video2.AddComment(new Comment("Chris", "Loved the examples!"));
+        video2.AddComment(new Comment("Ohene", "Loved the examples!"));
 
      
         Video video3 = new Video("Top 10 Movies of 2025", "Cinephile Studios", 7, new List<Comment>());
